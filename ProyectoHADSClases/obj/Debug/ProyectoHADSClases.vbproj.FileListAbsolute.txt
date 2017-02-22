@@ -1,0 +1,9 @@
+C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSClases\obj\Debug\ProyectoHADSClases.vbprojResolveAssemblyReference.cache
+C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSClases\obj\Debug\ProyectoHADSClases.Resources.resources
+C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSClases\obj\Debug\ProyectoHADSClases.vbproj.GenerateResource.Cache
+C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSClases\bin\Debug\ProyectoHADSClases.dll
+C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSClases\bin\Debug\ProyectoHADSClases.pdb
+C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSClases\bin\Debug\ProyectoHADSClases.xml
+C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSClases\obj\Debug\ProyectoHADSClases.dll
+C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSClases\obj\Debug\ProyectoHADSClases.xml
+C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSClases\obj\Debug\ProyectoHADSClases.pdb

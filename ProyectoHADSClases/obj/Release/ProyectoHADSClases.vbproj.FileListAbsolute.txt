@@ -1,0 +1,8 @@
+C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSClases\obj\Release\ProyectoHADSClases.Resources.resources
+C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSClases\obj\Release\ProyectoHADSClases.vbproj.GenerateResource.Cache
+C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSClases\bin\Release\ProyectoHADSClases.dll
+C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSClases\bin\Release\ProyectoHADSClases.pdb
+C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSClases\bin\Release\ProyectoHADSClases.xml
+C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSClases\obj\Release\ProyectoHADSClases.dll
+C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSClases\obj\Release\ProyectoHADSClases.xml
+C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSClases\obj\Release\ProyectoHADSClases.pdb

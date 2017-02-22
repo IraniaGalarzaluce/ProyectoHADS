@@ -1,0 +1,13 @@
+C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSWeb\obj\Release\ProyectoHADSWeb.Resources.resources
+C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSWeb\obj\Release\ProyectoHADSWeb.vbproj.GenerateResource.Cache
+C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSWeb\bin\ProyectoHADSWeb.dll.config
+C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSWeb\bin\ProyectoHADSWeb.dll
+C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSWeb\bin\ProyectoHADSWeb.pdb
+C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSWeb\bin\ProyectoHADSWeb.xml
+C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSWeb\bin\ProyectoHADSClases.dll
+C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSWeb\bin\ProyectoHADSClases.pdb
+C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSWeb\bin\ProyectoHADSClases.xml
+C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSWeb\obj\Release\ProyectoHADSWeb.vbprojResolveAssemblyReference.cache
+C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSWeb\obj\Release\ProyectoHADSWeb.dll
+C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSWeb\obj\Release\ProyectoHADSWeb.xml
+C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSWeb\obj\Release\ProyectoHADSWeb.pdb
