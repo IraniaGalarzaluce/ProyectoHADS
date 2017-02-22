@@ -16,33 +16,55 @@
         <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Email:&nbsp;&nbsp;&nbsp;
         <asp:TextBox ID="mailTxt" runat="server"></asp:TextBox>
-        <asp:RangeValidator ID="mailReqVal" runat="server" ControlToValidate="mailTxt" ErrorMessage="*" ForeColor="Red"></asp:RangeValidator>
         <asp:RegularExpressionValidator ID="mailVal" runat="server" ControlToValidate="mailTxt" ErrorMessage="Introduzca una dirección de correo válida" ForeColor="Red" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
         <br />
         <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pregunta secreta:&nbsp;&nbsp;
-        <asp:TextBox ID="PreguntaTxt" runat="server"></asp:TextBox>
-        <asp:RequiredFieldValidator ID="PregReqVal" runat="server" ControlToValidate="PreguntaTxt" ErrorMessage="*" ForeColor="Red"></asp:RequiredFieldValidator>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="Button1" runat="server" Text="Aceptar" />
         <br />
         <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Respuesta secreta:&nbsp;&nbsp;
-        <asp:TextBox ID="RespuestaTxt" runat="server"></asp:TextBox>
-        <asp:RequiredFieldValidator ID="RespReqVal" runat="server" ControlToValidate="RespuestaTxt" ErrorMessage="*" ForeColor="Red"></asp:RequiredFieldValidator>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Label ID="Info" runat="server"></asp:Label>
         <br />
         <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nueva password:&nbsp;&nbsp;
-        <asp:TextBox ID="PassTxt" runat="server" TextMode="Password"></asp:TextBox>
-        <asp:RequiredFieldValidator ID="PassReqVal" runat="server" ControlToValidate="PassTxt" ErrorMessage="*" ForeColor="Red"></asp:RequiredFieldValidator>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Label ID="PSTxt" runat="server" Text="&nbsp;&nbsp; Pregunta secreta:" Visible="False"></asp:Label>
+        &nbsp;
+        <asp:Label ID="preg" runat="server"></asp:Label>
         <br />
         <br />
-&nbsp;&nbsp;&nbsp; Repita la password:&nbsp;&nbsp;
-        <asp:TextBox ID="PassRepTxt" runat="server" TextMode="Password"></asp:TextBox>
-        <asp:RequiredFieldValidator ID="PassRepReqVal" runat="server" ControlToValidate="PassRepTxt" ErrorMessage="*" ForeColor="Red"></asp:RequiredFieldValidator>
-        <asp:CompareValidator ID="CompPassVal" runat="server" ControlToCompare="PassTxt" ControlToValidate="PassRepTxt" ErrorMessage="Las contraseñas deben coincidir" ForeColor="Red"></asp:CompareValidator>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Label ID="RSTxt" runat="server" Text=" Respuesta secreta:&nbsp;" Visible="False"></asp:Label>
+        &nbsp;
+        <asp:TextBox ID="RespuestaTxt" runat="server" Visible="False"></asp:TextBox>
+        <asp:RequiredFieldValidator ID="RespReqVal" runat="server" ControlToValidate="RespuestaTxt" ErrorMessage="*" ForeColor="Red" Visible="False"></asp:RequiredFieldValidator>
+        <br />
+        <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Label ID="NPTxt" runat="server" Text="Nueva password:" Visible="False"></asp:Label>
+        &nbsp;
+        <asp:TextBox ID="PassTxt" runat="server" TextMode="Password" Visible="False"></asp:TextBox>
+        <asp:RequiredFieldValidator ID="PassReqVal" runat="server" ControlToValidate="PassTxt" ErrorMessage="*" ForeColor="Red" Visible="False"></asp:RequiredFieldValidator>
+        <br />
+        <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Label ID="RPTxt" runat="server" Text="&nbsp; Repita la password:" Visible="False"></asp:Label>
+&nbsp;
+        <asp:TextBox ID="PassRepTxt" runat="server" TextMode="Password" Visible="False"></asp:TextBox>
+        <asp:RequiredFieldValidator ID="PassRepReqVal" runat="server" ControlToValidate="PassRepTxt" ErrorMessage="*" ForeColor="Red" Visible="False"></asp:RequiredFieldValidator>
+        <asp:CompareValidator ID="CompPassVal" runat="server" ControlToCompare="PassTxt" ControlToValidate="PassRepTxt" ErrorMessage="Las contraseñas deben coincidir" ForeColor="Red" Visible="False"></asp:CompareValidator>
         <br />
         <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="AceptarBtn" runat="server" Text="Aceptar" />
+        <asp:Button ID="AceptarBtn" runat="server" Text="Aceptar" Visible="False" />
+        <br />
+        <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:LinkButton ID="LinkInicio" runat="server" CausesValidation="False" PostBackUrl="~/Inicio.aspx">Volver a Inicio</asp:LinkButton>
+        <br />
+        <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Label ID="Label1" runat="server"></asp:Label>
         <br />
         <br />
     

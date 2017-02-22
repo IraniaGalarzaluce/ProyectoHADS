@@ -22,14 +22,6 @@ Control mailTxt.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ProyectoHADSWeb.CambiarPass.mailReqVal">
-	<summary>
-Control mailReqVal.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
 </member><member name="F:ProyectoHADSWeb.CambiarPass.mailVal">
 	<summary>
 Control mailVal.
@@ -38,17 +30,41 @@ Control mailVal.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ProyectoHADSWeb.CambiarPass.PreguntaTxt">
+</member><member name="F:ProyectoHADSWeb.CambiarPass.Button1">
 	<summary>
-Control PreguntaTxt.
+Control Button1.
 </summary>
 	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ProyectoHADSWeb.CambiarPass.PregReqVal">
+</member><member name="F:ProyectoHADSWeb.CambiarPass.Info">
 	<summary>
-Control PregReqVal.
+Control Info.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.CambiarPass.PSTxt">
+	<summary>
+Control PSTxt.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.CambiarPass.preg">
+	<summary>
+Control preg.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.CambiarPass.RSTxt">
+	<summary>
+Control RSTxt.
 </summary>
 	<remarks>
 Campo generado automáticamente.
@@ -70,6 +86,14 @@ Control RespReqVal.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
+</member><member name="F:ProyectoHADSWeb.CambiarPass.NPTxt">
+	<summary>
+Control NPTxt.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
 </member><member name="F:ProyectoHADSWeb.CambiarPass.PassTxt">
 	<summary>
 Control PassTxt.
@@ -81,6 +105,14 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member><member name="F:ProyectoHADSWeb.CambiarPass.PassReqVal">
 	<summary>
 Control PassReqVal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.CambiarPass.RPTxt">
+	<summary>
+Control RPTxt.
 </summary>
 	<remarks>
 Campo generado automáticamente.
@@ -113,6 +145,30 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member><member name="F:ProyectoHADSWeb.CambiarPass.AceptarBtn">
 	<summary>
 Control AceptarBtn.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.CambiarPass.LinkInicio">
+	<summary>
+Control LinkInicio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.CambiarPass.Label1">
+	<summary>
+Control Label1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.PaginaSuperSecreta.form1">
+	<summary>
+Control form1.
 </summary>
 	<remarks>
 Campo generado automáticamente.
@@ -178,14 +234,6 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member><member name="F:ProyectoHADSWeb.Registrar.form1">
 	<summary>
 Control form1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ProyectoHADSWeb.Registrar.Label1">
-	<summary>
-Control Label1.
 </summary>
 	<remarks>
 Campo generado automáticamente.
@@ -351,6 +399,14 @@ Control Registrarse.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
+</member><member name="F:ProyectoHADSWeb.Registrar.linkInicio">
+	<summary>
+Control linkInicio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
 </member><member name="F:ProyectoHADSWeb.Registrar.Label2">
 	<summary>
 Control Label2.
@@ -391,7 +447,15 @@ Control RegistroLink.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ProyectoHADSWeb.Inicio.Inicio">
+</member><member name="F:ProyectoHADSWeb.Inicio.CambiarPassLink">
+	<summary>
+Control CambiarPassLink.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.Login.form1">
 	<summary>
 Control form1.
 </summary>
@@ -399,65 +463,65 @@ Control form1.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ProyectoHADSWeb.Inicio.emailTxt">
+</member><member name="F:ProyectoHADSWeb.Login.Label1">
 	<summary>
-Control emailTxt.
+Control Label1.
 </summary>
 	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ProyectoHADSWeb.Inicio.mailReqVal">
+</member><member name="F:ProyectoHADSWeb.Login.TextBox1">
 	<summary>
-Control mailReqVal.
+Control TextBox1.
 </summary>
 	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ProyectoHADSWeb.Inicio.mailVal">
+</member><member name="F:ProyectoHADSWeb.Login.TextBox2">
 	<summary>
-Control mailVal.
+Control TextBox2.
 </summary>
 	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ProyectoHADSWeb.Inicio.PassTxt">
+</member><member name="F:ProyectoHADSWeb.Login.Button1">
 	<summary>
-Control PassTxt.
+Control Button1.
 </summary>
 	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ProyectoHADSWeb.Inicio.passVal">
+</member><member name="F:ProyectoHADSWeb.Login.HyperLink1">
 	<summary>
-Control passVal.
+Control HyperLink1.
 </summary>
 	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ProyectoHADSWeb.Inicio.entrarBtn">
+</member><member name="F:ProyectoHADSWeb.Login.HyperLink2">
 	<summary>
-Control entrarBtn.
+Control HyperLink2.
 </summary>
 	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ProyectoHADSWeb.Inicio.RegistroBtn">
+</member><member name="F:ProyectoHADSWeb.Login.LinkButton1">
 	<summary>
-Control RegistroBtn.
+Control LinkButton1.
 </summary>
 	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ProyectoHADSWeb.Inicio.CambiarPassLink">
+</member><member name="F:ProyectoHADSWeb.Login.Label2">
 	<summary>
-Control CambiarPassLink.
+Control Label2.
 </summary>
 	<remarks>
 Campo generado automáticamente.

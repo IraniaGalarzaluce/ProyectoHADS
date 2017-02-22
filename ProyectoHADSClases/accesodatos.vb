@@ -56,7 +56,7 @@ Public Class accesodatosSQL
             Try
                 comando.ExecuteNonQuery()
             Catch ex As Exception
-                MsgBox(ex.Message)
+                ' MsgBox(ex.Message)
                 Return False
             End Try
             Return True

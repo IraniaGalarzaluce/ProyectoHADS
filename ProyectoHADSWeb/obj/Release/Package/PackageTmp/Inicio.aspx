@@ -15,14 +15,16 @@
         <h1 style="margin-left: 120px">Inicio</h1>
         <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:LinkButton ID="LoginLink" runat="server">Entrar en la aplicación</asp:LinkButton>
+        <asp:LinkButton ID="LoginLink" runat="server" PostBackUrl="~/Login.aspx">Entrar en la aplicación</asp:LinkButton>
         <br />
         <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ¿Aun no tienes cuenta?<asp:LinkButton ID="RegistroLink" runat="server">Registrate</asp:LinkButton>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ¿Aun no tienes cuenta?<asp:LinkButton ID="RegistroLink" runat="server" PostBackUrl="~/Registrar.aspx">Registrate</asp:LinkButton>
         <br />
         <br />
         &nbsp;&nbsp;&nbsp;
-        ¿Has olvidado tu contraseña?</div>
+        ¿Has olvidado tu contraseña?<asp:LinkButton ID="CambiarPassLink" runat="server" PostBackUrl="~/CambiarPass.aspx">Cambiar contraseña</asp:LinkButton>
+    
+    </div>
     </form>
 </body>
 </html>

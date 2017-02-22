@@ -16,13 +16,13 @@ Public Class mail
             smtp.Credentials = New System.Net.NetworkCredential(from_address.Address, from_pass)
             Dim message As New MailMessage(from_address, to_address)
             message.Subject = "IraniaWeb: Confirmación Registro"
-            Dim web As String = "http://localhost:49326/Confirmar.aspx?mbr="
+            Dim web As String = "http://hads15irania.azurewebsites.net/Confirmar.aspx?mbr="
             message.Body = "<html><head></head><body>" & "<h1> Bienvenido a IraniaWeb! </h1> <h4> Para confirmar tu registro accede al siguiente link por favor: <a href='" & web & email & "&numconf=" & numConf & "'> Confirmar registro </a></h4></body></html>"
             message.IsBodyHtml = True
             smtp.Send(message)
             Return True
         Catch ex As Exception
-            MsgBox(ex.Message)
+            ' MsgBox(ex.Message)
             Return False
         End Try
     End Function

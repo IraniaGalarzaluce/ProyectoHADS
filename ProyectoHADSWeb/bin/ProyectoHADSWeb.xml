@@ -150,6 +150,14 @@ Control AceptarBtn.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
+</member><member name="F:ProyectoHADSWeb.CambiarPass.LinkInicio">
+	<summary>
+Control LinkInicio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
 </member><member name="F:ProyectoHADSWeb.CambiarPass.Label1">
 	<summary>
 Control Label1.
@@ -415,7 +423,7 @@ Control Label3.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ProyectoHADSWeb.Inicio1.form1">
+</member><member name="F:ProyectoHADSWeb.Inicio.form1">
 	<summary>
 Control form1.
 </summary>
@@ -423,7 +431,7 @@ Control form1.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ProyectoHADSWeb.Inicio1.LoginLink">
+</member><member name="F:ProyectoHADSWeb.Inicio.LoginLink">
 	<summary>
 Control LoginLink.
 </summary>
@@ -431,7 +439,7 @@ Control LoginLink.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ProyectoHADSWeb.Inicio1.RegistroLink">
+</member><member name="F:ProyectoHADSWeb.Inicio.RegistroLink">
 	<summary>
 Control RegistroLink.
 </summary>
@@ -439,7 +447,7 @@ Control RegistroLink.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ProyectoHADSWeb.Inicio1.CambiarPassLink">
+</member><member name="F:ProyectoHADSWeb.Inicio.CambiarPassLink">
 	<summary>
 Control CambiarPassLink.
 </summary>
@@ -498,6 +506,14 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member><member name="F:ProyectoHADSWeb.Login.HyperLink2">
 	<summary>
 Control HyperLink2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.Login.LinkButton1">
+	<summary>
+Control LinkButton1.
 </summary>
 	<remarks>
 Campo generado automáticamente.

@@ -1,41 +1,43 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Login.aspx.vb" Inherits="ProyectoHADSWeb.Inicio" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Login.aspx.vb" Inherits="ProyectoHADSWeb.Login" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Login</title>
+    <title></title>
 </head>
 <body>
     <form id="form1" runat="server">
-    <div id="registrar">
+    <div style="margin-left: 80px">
     
-        <br />
-        <h1 style="margin-left: 80px">&nbsp;Login</h1>
-        <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Email:&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="emailTxt" runat="server"></asp:TextBox>
-        <asp:RequiredFieldValidator ID="mailReqVal" runat="server" ControlToValidate="emailTxt" ErrorMessage="*" ForeColor="Red"></asp:RequiredFieldValidator>
-        <asp:RegularExpressionValidator ID="mailVal" runat="server" ControlToValidate="emailTxt" ErrorMessage="Introduzca una dirección de correo válida" ForeColor="Red" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*">Email incorrecto</asp:RegularExpressionValidator>
+        <h1 style="margin-left: 80px">Login</h1>
+        <asp:Label ID="Label1" runat="server"></asp:Label>
         <br />
         <br />
-&nbsp;&nbsp;&nbsp;&nbsp; Password:&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="PassTxt" runat="server" TextMode="Password"></asp:TextBox>
-        <asp:RequiredFieldValidator ID="passVal" runat="server" ErrorMessage="*" ControlToValidate="passTxt" ForeColor="Red"></asp:RequiredFieldValidator>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Email&nbsp;&nbsp;&nbsp; <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
         <br />
         <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="entrarBtn" runat="server" Text="Entrar" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Contraseña&nbsp;&nbsp;&nbsp;
+        <asp:TextBox ID="TextBox2" runat="server" TextMode="Password"></asp:TextBox>
         <br />
         <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ¿Aun no tienes cuenta?<asp:LinkButton ID="RegistroBtn" runat="server">Registrate</asp:LinkButton>
-        <br />
-        ¿Has olvidado tu contraseña?<asp:LinkButton ID="CambiarPassLink" runat="server">Cambiar contraseña</asp:LinkButton>
-        <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="Button1" runat="server" Text="Entrar" />
         <br />
         <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ¿Aún no tienes cuenta?
+        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Registrar.aspx">Regístrate</asp:HyperLink>
         <br />
+        ¿Has olvidado tu contraseña?<asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/CambiarPass.aspx">Cambiar contraseña</asp:HyperLink>
+        <br />
+        <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/Inicio.aspx">Volver a Inicio</asp:LinkButton>
+        <br />
+        <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Label ID="Label2" runat="server" ForeColor="Red"></asp:Label>
         <br />
     
     </div>

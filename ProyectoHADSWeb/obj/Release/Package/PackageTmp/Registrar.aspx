@@ -12,8 +12,7 @@
     <div style="height: 647px; width: 786px; margin-left: 77px;">
     
         <h1 align="center">Registro:&nbsp;
-            <asp:Label ID="Label1" runat="server" ForeColor="#339966"></asp:Label>
-        </h1><br />
+            </h1><br />
         <br />
         Dirección de correo:&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:TextBox ID="correoText" runat="server" Width="251px"></asp:TextBox>
@@ -62,6 +61,10 @@
         <asp:Button ID="Registrarse" runat="server" Text="Registrarse" />
     
         <br />
+    
+        <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:LinkButton ID="linkInicio" runat="server" CausesValidation="False" PostBackUrl="~/Inicio.aspx">Volver a Inicio</asp:LinkButton>
         <br />
         <br />
         <br />
