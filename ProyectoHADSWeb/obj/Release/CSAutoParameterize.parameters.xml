@@ -1,2 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<parameters />
+<parameters>
+  <parameter name="HADS15_TareasConnectionString-Web.config Connection String" description="HADS15_TareasConnectionString Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="Data Source=tcp:irania15irati.database.windows.net,1433;Initial Catalog=HADS15_Tareas;User ID=Irani@irania15irati;Password=Huskito15" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\IRATI\\Documents\\Visual\ Studio\ 2013\\Projects\\ProyectoHADS\\ProyectoHADSWeb\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='HADS15_TareasConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

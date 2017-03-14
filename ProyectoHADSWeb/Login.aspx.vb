@@ -14,15 +14,22 @@ Public Class Login
     End Sub
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Dim usConfir = registrado(TextBox1.Text, TextBox2.Text)
-        If (usConfir = True) Then
-            Response.Redirect("PaginaSuperSecreta.aspx")
+        Dim usConfirAlum = registradoA(TextBox1.Text, TextBox2.Text)
+        If (usConfirAlum = True) Then
+            Session.Contents("alumno") = TextBox1.Text
+            Response.Redirect("Alumnos/Alumno.aspx")
         Else
-            Dim usReg = confirmado(TextBox1.Text, TextBox2.Text)
-            If (usReg = True) Then
-                Label2.Text = "Debe confirmar su solicitud para acceder a la página Super Secreta"
+            Dim usConfirProf = registradoP(TextBox1.Text, TextBox2.Text)
+            If (usConfirProf = True) Then
+                Session.Contents("profesor") = TextBox1.Text
+                Response.Redirect("Profesores/Profesor.aspx")
             Else
-                Label2.Text = "Usuario o contraseña incorrectos"
+                Dim usReg = confirmado(TextBox1.Text, TextBox2.Text)
+                If (usReg = True) Then
+                    Label2.Text = "Debe confirmar su solicitud para acceder a la página Super Secreta"
+                Else
+                    Label2.Text = "Usuario o contraseña incorrectos"
+                End If
             End If
         End If
 

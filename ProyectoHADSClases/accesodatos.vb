@@ -4,16 +4,16 @@ Imports System.Net.Mail
 
 Public Class accesodatosSQL
 
-    Private Shared conexion As New SqlConnection
-    Private Shared comando As New SqlCommand
+    Public Shared conexion As New SqlConnection
+    Public Shared comando As New SqlCommand
 
     Public Shared Function conectar() As String
         Try
             'conexion.ConnectionString = "Data Source=158.227.106.20;Initial_Catalog=Amigos;Integrated_Security=False;_UserID=HADS15;Password=buitre;_Connect Timeout=15;Encrypt=False;TrustServerCertificate=False"
             'CONEXION IRATI:
-            conexion.ConnectionString = "Server=tcp:irania15.database.windows.net,1433;Initial Catalog=HADS15_Usuarios;Persist Security Info=False;User ID=Irania@irania15;Password=Huskito15;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+            conexion.ConnectionString = "Server=tcp:irania15irati.database.windows.net,1433;Initial Catalog=HADS15_Tareas;Persist Security Info=False;User ID=Irani@irania15irati;Password=Huskito15;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
             'CONEXIÓN ANIA:
-            'conexion.ConnectionString = "Server=tcp:irania.database.windows.net,1433;Initial Catalog=HADS15_Usuarios;Persist Security Info=False;User ID=Irania@irania;Password=Huskito15;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+            '  conexion.ConnectionString = "Server=tcp:irania15ania.database.windows.net,1433;Initial Catalog=HADS15_Tareas;Persist Security Info=False;User ID=Irania@irania15ania;Password=Huskito15;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
             conexion.Open()
         Catch ex As Exception
             Return "ERROR DE CONEXIÓN: " + ex.Message
@@ -56,7 +56,7 @@ Public Class accesodatosSQL
             Try
                 comando.ExecuteNonQuery()
             Catch ex As Exception
-                ' MsgBox(ex.Message)
+                MsgBox(ex.Message)
                 Return False
             End Try
             Return True
@@ -66,8 +66,14 @@ Public Class accesodatosSQL
 
     End Function
 
-    Public Shared Function registrado(ByVal mail As String, ByVal pass As String) As Boolean
-        Dim st = "select count(*) from Usuarios where email='" & mail & "' and pass='" & pass & "' and confirmado=1"
+    Public Shared Function registradoA(ByVal mail As String, ByVal pass As String) As Boolean
+        Dim st = "select count(*) from Usuarios where email='" & mail & "' and pass='" & pass & "' and confirmado=1 and tipo='A'"
+        comando = New SqlCommand(st, conexion)
+        Return comando.ExecuteScalar()
+    End Function
+
+    Public Shared Function registradoP(ByVal mail As String, ByVal pass As String) As Boolean
+        Dim st = "select count(*) from Usuarios where email='" & mail & "' and pass='" & pass & "' and confirmado=1 and tipo='P'"
         comando = New SqlCommand(st, conexion)
         Return comando.ExecuteScalar()
     End Function

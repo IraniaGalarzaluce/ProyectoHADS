@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="PaginaSuperSecreta.aspx.vb" Inherits="ProyectoHADSWeb.PaginaSuperSecreta" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="LogOut.aspx.vb" Inherits="ProyectoHADSWeb.LogOut" %>
 
 <!DOCTYPE html>
 
@@ -11,10 +11,7 @@
     <form id="form1" runat="server">
     <div>
     
-        <h1>Página super secreta</h1>
-        <p style="margin-left: 80px">
-        Bienvenido.</p>
-        </div>
+    </div>
     </form>
 </body>
 </html>
