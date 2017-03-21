@@ -11,3 +11,5 @@ C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSWe
 C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSWeb\obj\Release\ProyectoHADSWeb.dll
 C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSWeb\obj\Release\ProyectoHADSWeb.xml
 C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSWeb\obj\Release\ProyectoHADSWeb.pdb
+C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSWeb\bin\Newtonsoft.Json.dll
+C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSWeb\bin\Newtonsoft.Json.xml

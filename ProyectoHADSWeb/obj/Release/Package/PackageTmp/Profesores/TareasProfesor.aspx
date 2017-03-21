@@ -60,8 +60,6 @@
                 <SortedDescendingHeaderStyle BackColor="#242121" />
             </asp:GridView>
         <p>
-            &nbsp;</p>
-        <p>
             <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:HADS15_TareasConnectionString %>" 
                 DeleteCommand="DELETE FROM [TareasGenericas] WHERE [Codigo] = @Codigo" 
                 InsertCommand="INSERT INTO [TareasGenericas] ([Codigo], [Descripcion], [CodAsig], [HEstimadas], [Explotacion], [TipoTarea]) VALUES (@Codigo, @Descripcion, @CodAsig, @HEstimadas, @Explotacion, @TipoTarea)" 
@@ -90,6 +88,10 @@
                     <asp:Parameter Name="Codigo" Type="String" />
                 </UpdateParameters>
             </asp:SqlDataSource>
+        </p>
+        <p style="margin-left: 400px">
+        <asp:LinkButton ID="menuLink" runat="server" PostBackUrl="~/Profesores/Profesor.aspx">Menu Profesor</asp:LinkButton>
+    
         </p>
     </form>
 </body>

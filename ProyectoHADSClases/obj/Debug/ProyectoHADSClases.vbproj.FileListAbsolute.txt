@@ -7,3 +7,5 @@ C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSCl
 C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSClases\obj\Debug\ProyectoHADSClases.dll
 C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSClases\obj\Debug\ProyectoHADSClases.xml
 C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSClases\obj\Debug\ProyectoHADSClases.pdb
+C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSClases\bin\Debug\Newtonsoft.Json.dll
+C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSClases\bin\Debug\Newtonsoft.Json.xml

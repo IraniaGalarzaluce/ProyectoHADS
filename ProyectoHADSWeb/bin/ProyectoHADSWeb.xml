@@ -6,15 +6,7 @@ ProyectoHADSWeb
 </name>
 </assembly>
 <members>
-<member name="F:ProyectoHADSWeb.LogOut.form1">
-	<summary>
-control form1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ProyectoHADSWeb.InstanciarTarea.form1">
+<member name="F:ProyectoHADSWeb.InstanciarTarea.form1">
 	<summary>
 Control form1.
 </summary>
@@ -294,6 +286,102 @@ Control Label1.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
+</member><member name="F:ProyectoHADSWeb.ExportarTarea.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.ExportarTarea.Panel1">
+	<summary>
+Control Panel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.ExportarTarea.LinkLogOut">
+	<summary>
+Control LinkLogOut.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.ExportarTarea.Asignaturas">
+	<summary>
+Control Asignaturas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.ExportarTarea.SqlDataSource1">
+	<summary>
+Control SqlDataSource1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.ExportarTarea.TablaTareas">
+	<summary>
+Control TablaTareas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.ExportarTarea.SqlDataSource2">
+	<summary>
+Control SqlDataSource2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.ExportarTarea.lblNoTareas">
+	<summary>
+Control lblNoTareas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.ExportarTarea.ExportarXML">
+	<summary>
+Control ExportarXML.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.ExportarTarea.ExportarJson">
+	<summary>
+Control ExportarJson.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.ExportarTarea.Label1">
+	<summary>
+Control Label1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.ExportarTarea.menuLink">
+	<summary>
+Control menuLink.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
 </member><member name="F:ProyectoHADSWeb.InstanciarTarea1.form1">
 	<summary>
 Control form1.
@@ -449,6 +537,14 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member><member name="F:ProyectoHADSWeb.TareasProfesor.SqlDataSource3">
 	<summary>
 Control SqlDataSource3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.TareasProfesor.menuLink">
+	<summary>
+Control menuLink.
 </summary>
 	<remarks>
 Campo generado automáticamente.
@@ -914,6 +1010,214 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member><member name="F:ProyectoHADSWeb.Login.Label2">
 	<summary>
 Control Label2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.LogOut.form1">
+	<summary>
+control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.ImportarXML.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.ImportarXML.Panel1">
+	<summary>
+Control Panel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.ImportarXML.LinkLogOut">
+	<summary>
+Control LinkLogOut.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.ImportarXML.Asignaturas">
+	<summary>
+Control Asignaturas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.ImportarXML.SqlDataSource1">
+	<summary>
+Control SqlDataSource1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.ImportarXML.Tareas">
+	<summary>
+Control Tareas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.ImportarXML.lblOrdenar">
+	<summary>
+Control lblOrdenar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.ImportarXML.OrdCodigo">
+	<summary>
+Control OrdCodigo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.ImportarXML.OrdDesc">
+	<summary>
+Control OrdDesc.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.ImportarXML.OrdHEst">
+	<summary>
+Control OrdHEst.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.ImportarXML.lblError">
+	<summary>
+Control lblError.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.ImportarXML.ImportarBtn">
+	<summary>
+Control ImportarBtn.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.ImportarXML.Label1">
+	<summary>
+Control Label1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.ImportarXML.menuLink">
+	<summary>
+Control menuLink.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.ImportarXMLDataSet.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.ImportarXMLDataSet.Panel1">
+	<summary>
+Control Panel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.ImportarXMLDataSet.LinkLogOut">
+	<summary>
+Control LinkLogOut.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.ImportarXMLDataSet.Asignaturas">
+	<summary>
+Control Asignaturas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.ImportarXMLDataSet.SqlDataSource1">
+	<summary>
+Control SqlDataSource1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.ImportarXMLDataSet.Tareas">
+	<summary>
+Control Tareas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.ImportarXMLDataSet.lblError">
+	<summary>
+Control lblError.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.ImportarXMLDataSet.ImportarBtn">
+	<summary>
+Control ImportarBtn.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.ImportarXMLDataSet.GridView1">
+	<summary>
+Control GridView1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.ImportarXMLDataSet.Label1">
+	<summary>
+Control Label1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.ImportarXMLDataSet.menuLink">
+	<summary>
+Control menuLink.
 </summary>
 	<remarks>
 Campo generado automáticamente.

@@ -84,4 +84,13 @@ Partial Public Class TareasProfesor
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents SqlDataSource3 As Global.System.Web.UI.WebControls.SqlDataSource
+
+    '''<summary>
+    '''Control menuLink.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents menuLink As Global.System.Web.UI.WebControls.LinkButton
 End Class
