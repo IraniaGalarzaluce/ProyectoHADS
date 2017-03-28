@@ -6,7 +6,79 @@ ProyectoHADSWeb
 </name>
 </assembly>
 <members>
-<member name="F:ProyectoHADSWeb.InstanciarTarea.form1">
+<member name="F:ProyectoHADSWeb.EliminarTareas.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.EliminarTareas.Panel1">
+	<summary>
+Control Panel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.EliminarTareas.LinkLogOut">
+	<summary>
+Control LinkLogOut.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.EliminarTareas.SqlDataSource1">
+	<summary>
+Control SqlDataSource1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.EliminarTareas.GridView1">
+	<summary>
+Control GridView1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.Admin.form2">
+	<summary>
+Control form2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.Admin.EliminarTareas">
+	<summary>
+Control EliminarTareas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.Admin.Panel1">
+	<summary>
+Control Panel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.Admin.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.InstanciarTarea.form1">
 	<summary>
 Control form1.
 </summary>
@@ -650,22 +722,6 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member><member name="F:ProyectoHADSWeb.Registrar.RequiredFieldValidator2">
 	<summary>
 Control RequiredFieldValidator2.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ProyectoHADSWeb.Registrar.apellidosText">
-	<summary>
-Control apellidosText.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ProyectoHADSWeb.Registrar.RequiredFieldValidator3">
-	<summary>
-Control RequiredFieldValidator3.
 </summary>
 	<remarks>
 Campo generado automáticamente.

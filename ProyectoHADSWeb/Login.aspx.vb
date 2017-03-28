@@ -1,12 +1,13 @@
 ﻿Imports ProyectoHADSClases.accesodatosSQL
+Imports System.Web.Security
+Imports System.Security.Cryptography
 
 Public Class Login
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        Dim result As String
-        result = conectar()
-        'Label1.Text = result
+        conectar()
+        System.Web.Security.FormsAuthentication.SignOut()
     End Sub
 
     Protected Sub Page_Unload(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Unload
@@ -14,17 +15,26 @@ Public Class Login
     End Sub
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Dim usConfirAlum = registradoA(TextBox1.Text, TextBox2.Text)
+
+        Dim encPass = encriptar(TextBox2.Text)
+
+        Dim usConfirAlum = registradoA(TextBox1.Text, encPass)
         If (usConfirAlum = True) Then
             Session.Contents("alumno") = TextBox1.Text
+            FormsAuthentication.SetAuthCookie("alumno", False)
             Response.Redirect("Alumnos/Alumno.aspx")
         Else
-            Dim usConfirProf = registradoP(TextBox1.Text, TextBox2.Text)
+            Dim usConfirProf = registradoP(TextBox1.Text, encPass)
             If (usConfirProf = True) Then
                 Session.Contents("profesor") = TextBox1.Text
+                If TextBox1.Text = "vadillo@ehu.es" Then
+                    FormsAuthentication.SetAuthCookie("vadillo", False)
+                Else
+                    FormsAuthentication.SetAuthCookie("profesor", False)
+                End If
                 Response.Redirect("Profesores/Profesor.aspx")
             Else
-                Dim usReg = confirmado(TextBox1.Text, TextBox2.Text)
+                Dim usReg = confirmado(TextBox1.Text, encPass)
                 If (usReg = True) Then
                     Label2.Text = "Debe confirmar su solicitud para acceder a la página Super Secreta"
                 Else
@@ -34,4 +44,16 @@ Public Class Login
         End If
 
     End Sub
+
+    Private Function encriptar(ByVal pass As String) As String
+
+        Dim md5 As New MD5CryptoServiceProvider
+
+        Dim inputData() As Byte = ASCIIEncoding.ASCII.GetBytes(pass)
+        Dim hashResult() As Byte = md5.ComputeHash(inputData)
+
+        Return ASCIIEncoding.ASCII.GetString(hashResult)
+
+    End Function
+
 End Class

@@ -85,6 +85,8 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin\Admin.aspx" />
+    <Content Include="Admin\EliminarTareas.aspx" />
     <Content Include="Alumnos\Alumno.aspx" />
     <Content Include="Alumnos\InstanciarTarea.aspx" />
     <Content Include="Alumnos\TareasAlumno.aspx" />
@@ -109,6 +111,20 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\Admin.aspx.designer.vb">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin.aspx.vb">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\EliminarTareas.aspx.designer.vb">
+      <DependentUpon>EliminarTareas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\EliminarTareas.aspx.vb">
+      <DependentUpon>EliminarTareas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Alumnos\Alumno.aspx.designer.vb">
       <DependentUpon>Alumno.aspx</DependentUpon>
     </Compile>

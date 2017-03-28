@@ -7,13 +7,6 @@ Public Class ImportarXML
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        If Session("profesor") Is Nothing Then
-            If Session("alumno") Is Nothing Then
-                Response.Redirect("../Login.aspx")
-            Else
-                Response.Redirect("../Alumnos/Alumno.aspx")
-            End If
-        End If
 
         conectar()
 
@@ -68,12 +61,6 @@ Public Class ImportarXML
     Protected Sub ImportarBtn_Click(sender As Object, e As EventArgs) Handles ImportarBtn.Click
 
         Dim codAsig = Asignaturas.SelectedValue
-        Dim xd As New XmlDocument
-        xd.Load(Server.MapPath("../App_Data/" & codAsig & ".xml"))
-
-        Dim tareas As XmlNodeList
-        tareas = xd.GetElementsByTagName("tarea")
-
         Dim ds As New DataSet
         Dim da As New SqlDataAdapter
         Dim tbl As New DataTable
@@ -81,6 +68,12 @@ Public Class ImportarXML
         ds = Session("dataset")
         da = Session("adapter")
         tbl = ds.Tables("Tareas")
+
+        Dim xd As New XmlDocument
+        xd.Load(Server.MapPath("../App_Data/" & codAsig & ".xml"))
+
+        Dim tareas As XmlNodeList
+        tareas = xd.GetElementsByTagName("tarea")
 
         Dim i As Integer
         Dim newrow As DataRow

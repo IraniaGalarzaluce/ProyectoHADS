@@ -25,15 +25,10 @@
         <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="nombreText" ErrorMessage="*" ForeColor="#CC0000"></asp:RequiredFieldValidator>
         <br />
         <br />
-        Apellidos:&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="apellidosText" runat="server" Width="205px"></asp:TextBox>
-        <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="apellidosText" ErrorMessage="*" ForeColor="#CC0000"></asp:RequiredFieldValidator>
-        <br />
-        <br />
         DNI:&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:TextBox ID="dniText" runat="server" Width="177px"></asp:TextBox>
         <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="dniText" ErrorMessage="*" ForeColor="#CC0000"></asp:RequiredFieldValidator>
-        <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="dniText" ErrorMessage="Introduzca un DNI válido (8 dígitos seguidos de una letra)" ValidationExpression="(\d{8})([-]?)([A-Z]{1})" ForeColor="#CC0000"></asp:RegularExpressionValidator>
+        <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="dniText" ErrorMessage="Introduzca un DNI válido (8 dígitos)" ValidationExpression="\d{8}" ForeColor="#CC0000"></asp:RegularExpressionValidator>
         <br />
         <br />
         Password:&nbsp;&nbsp;&nbsp;&nbsp;

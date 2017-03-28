@@ -6,14 +6,6 @@ Public Class InstanciarTarea1
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 
-        If Session("profesor") Is Nothing Then
-            If Session("alumno") Is Nothing Then
-                Response.Redirect("../Login.aspx")
-            Else
-                Response.Redirect("../Alumnos/Alumno.aspx")
-            End If
-        End If
-
         conectar()
 
         Dim adap As New SqlDataAdapter()

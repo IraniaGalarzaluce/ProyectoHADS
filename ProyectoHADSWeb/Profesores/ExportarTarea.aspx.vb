@@ -7,13 +7,6 @@ Public Class ExportarTarea
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        If Session("profesor") Is Nothing Then
-            If Session("alumno") Is Nothing Then
-                Response.Redirect("../Login.aspx")
-            Else
-                Response.Redirect("../Alumnos/Alumno.aspx")
-            End If
-        End If
 
         conectar()
 
@@ -30,7 +23,6 @@ Public Class ExportarTarea
         adap = New SqlDataAdapter(st, conexion)
         Dim bld As New SqlCommandBuilder(adap)
         adap.Fill(ds, "tarea")
-
 
         ds.DataSetName = "tareas"
         table = ds.Tables("tarea")

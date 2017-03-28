@@ -8,3 +8,4 @@ C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSCl
 C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSClases\obj\Release\ProyectoHADSClases.pdb
 C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSClases\bin\Release\Newtonsoft.Json.dll
 C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSClases\bin\Release\Newtonsoft.Json.xml
+C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSClases\obj\Release\ProyectoHADSClases.vbprojResolveAssemblyReference.cache

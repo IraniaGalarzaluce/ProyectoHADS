@@ -6,14 +6,6 @@ Public Class ImportarXMLDataSet
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        If Session("profesor") Is Nothing Then
-            If Session("alumno") Is Nothing Then
-                Response.Redirect("../Login.aspx")
-            Else
-                Response.Redirect("../Alumnos/Alumno.aspx")
-            End If
-        End If
-
         conectar()
 
         Dim adap As New SqlDataAdapter()
@@ -57,21 +49,18 @@ Public Class ImportarXMLDataSet
         Dim tbl As New DataTable
 
         adap = Session("adapter")
-
-        Dim codAsig2 = Asignaturas.SelectedValue
-        Dim documento = Server.MapPath("../App_Data/" & codAsig2 & ".xml")
+        Dim codAsig = Asignaturas.SelectedValue
+        Dim documento = Server.MapPath("../App_Data/" & codAsig & ".xml")
         ds.ReadXml(documento)
 
         ds.Tables(0).TableName = "Tareas"
         tbl = ds.Tables("Tareas")
-
         tbl.Columns(0).ColumnName = "Codigo"
         tbl.Columns(1).ColumnName = "Descripcion"
         tbl.Columns(2).ColumnName = "HEstimadas"
         tbl.Columns(3).ColumnName = "Explotacion"
         tbl.Columns(4).ColumnName = "TipoTarea"
 
-        Dim codAsig = Asignaturas.SelectedValue
         tbl.Columns.Add("CodAsig")
         For Each row In tbl.Rows
             row.Item("CodAsig") = codAsig

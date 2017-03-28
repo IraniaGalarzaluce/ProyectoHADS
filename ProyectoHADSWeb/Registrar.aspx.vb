@@ -1,5 +1,6 @@
 ﻿Imports ProyectoHADSClases.accesodatosSQL
 Imports ProyectoHADSClases.mail
+Imports System.Security.Cryptography
 
 Public Class Registrar
     Inherits System.Web.UI.Page
@@ -17,7 +18,10 @@ Public Class Registrar
     Protected Sub Registrarse_Click(sender As Object, e As EventArgs) Handles Registrarse.Click
         Randomize()
         Dim numConf = CLng(Rnd() * 9000000) + 1000000
-        Label2.Text = insertar(correoText.Text, nombreText.Text, apellidosText.Text, dniText.Text, pass1Text.Text, preguntaText.Text, respuestaText.Text, numConf)
+
+        Dim encPass = encriptar(pass1Text.Text)
+
+        Label2.Text = insertar(correoText.Text, nombreText.Text, dniText.Text, encPass, preguntaText.Text, respuestaText.Text)
         If (enviarEmailConfirmacion(correoText.Text, numConf)) Then
             Label3.Text = "Correo enviado!!"
         Else
@@ -26,5 +30,15 @@ Public Class Registrar
 
     End Sub
 
+    Private Function encriptar(ByVal pass As String) As String
+
+        Dim md5 As New MD5CryptoServiceProvider
+
+        Dim inputData() As Byte = ASCIIEncoding.ASCII.GetBytes(pass)
+        Dim hashResult() As Byte = md5.ComputeHash(inputData)
+
+        Return ASCIIEncoding.ASCII.GetString(hashResult)
+
+    End Function
 
 End Class

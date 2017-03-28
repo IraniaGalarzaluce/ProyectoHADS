@@ -7,8 +7,8 @@ Public Class Confirmar
         Dim result As String
         result = conectar()
         Dim email As String = Request.QueryString("mbr")
-        Dim numConf As Integer = Request.QueryString("numconf")
-        If (confirmarusuario(email, numConf)) Then
+        'Dim numConf As Integer = Request.QueryString("numconf")
+        If (confirmarusuario(email)) Then
             Titulo.Text = "Confirmación terminada"
             Mensaje.Text = "Tu confirmación de usuario se ha realizado con éxito."
             LinkLogin.Visible = True

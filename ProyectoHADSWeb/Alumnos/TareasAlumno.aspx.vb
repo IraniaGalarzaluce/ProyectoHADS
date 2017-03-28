@@ -5,13 +5,6 @@ Public Class TareasAlumno
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        If Session("alumno") Is Nothing Then
-            If Session("profesor") Is Nothing Then
-                Response.Redirect("../Login.aspx")
-            Else
-                Response.Redirect("../Profesores/Profesor.aspx")
-            End If
-        End If
 
         'Nos conectamos a la BD
         conectar()
@@ -33,7 +26,6 @@ Public Class TareasAlumno
             Dim bldLista As New SqlCommandBuilder(adapLista)
 
             adapLista.Fill(setLista, "AsignaturasAlum") 'AsignaturasAlum es el nombre que le damos a la table en memoria
-
             tblLista = setLista.Tables("AsignaturasAlum")
 
             DesplegableAsig.DataSource = tblLista

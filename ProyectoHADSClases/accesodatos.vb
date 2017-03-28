@@ -25,11 +25,11 @@ Public Class accesodatosSQL
         conexion.Close()
     End Sub
 
-    Public Shared Function insertar(ByVal mail As String, ByVal nombre As String, ByVal apellidos As String,
-                                    ByVal dni As String, ByVal pass As String, ByVal pregunta As String,
-                                    ByVal respuesta As String, ByVal numConf As Integer) As String
+    Public Shared Function insertar(ByVal mail As String, ByVal nombre As String,
+                                    ByVal dni As Integer, ByVal pass As String, ByVal pregunta As String,
+                                    ByVal respuesta As String) As String
 
-        Dim st = "insert into Usuarios(email, nombre, apellidos, pregunta, respuesta, dni, numconfir, confirmado, pass) values ('" & mail & "', '" & nombre & "', '" & apellidos & "', '" & pregunta & "', '" & respuesta & "', '" & dni & "', " & numConf & ", 0, '" & pass & "')"
+        Dim st = "insert into Usuarios(email, nombre, pregunta, respuesta, dni, confirmado, grupo, tipo, pass) values ('" & mail & "', '" & nombre & "', '" & pregunta & "', '" & respuesta & "', '" & dni & "', 0, '1', 'A', '" & pass & "')"
         Dim numregs As Integer
         comando = New SqlCommand(st, conexion)
         Try
@@ -46,23 +46,23 @@ Public Class accesodatosSQL
         Return comando.ExecuteScalar()
     End Function
 
-    Public Shared Function confirmarusuario(ByVal email As String, ByVal numConf As Integer) As Boolean
-        Dim st = "select numconfir from Usuarios where email='" & email & "'"
-        comando = New SqlCommand(st, conexion)
-        Dim numero As Integer = comando.ExecuteScalar
-        If numero = numConf Then
-            Dim update = "update Usuarios set confirmado=1 where email='" & email & "'"
-            comando = New SqlCommand(update, conexion)
-            Try
-                comando.ExecuteNonQuery()
-            Catch ex As Exception
-                MsgBox(ex.Message)
-                Return False
-            End Try
-            Return True
-        Else
+    Public Shared Function confirmarusuario(ByVal email As String) As Boolean
+        ' Dim st = "select numconfir from Usuarios where email='" & email & "'"
+        ' comando = New SqlCommand(st, conexion)
+        ' Dim numero As Integer = comando.ExecuteScalar
+        ' If numero = numConf Then
+        Dim update = "update Usuarios set confirmado=1 where email='" & email & "'"
+        comando = New SqlCommand(update, conexion)
+        Try
+            comando.ExecuteNonQuery()
+        Catch ex As Exception
+            MsgBox(ex.Message)
             Return False
-        End If
+        End Try
+        Return True
+        ' Else
+        '  Return False
+        ' End If
 
     End Function
 
