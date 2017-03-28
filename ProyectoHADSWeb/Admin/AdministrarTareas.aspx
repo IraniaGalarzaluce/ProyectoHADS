@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="EliminarTareas.aspx.vb" Inherits="ProyectoHADSWeb.EliminarTareas" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="AdministrarTareas.aspx.vb" Inherits="ProyectoHADSWeb.EliminarTareas" %>
 
 <!DOCTYPE html>
 

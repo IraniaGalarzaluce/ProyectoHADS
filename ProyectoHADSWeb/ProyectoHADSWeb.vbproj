@@ -86,7 +86,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Admin\Admin.aspx" />
-    <Content Include="Admin\EliminarTareas.aspx" />
+    <Content Include="Admin\AdministrarTareas.aspx" />
     <Content Include="Alumnos\Alumno.aspx" />
     <Content Include="Alumnos\InstanciarTarea.aspx" />
     <Content Include="Alumnos\TareasAlumno.aspx" />
@@ -118,11 +118,11 @@
       <DependentUpon>Admin.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="Admin\EliminarTareas.aspx.designer.vb">
-      <DependentUpon>EliminarTareas.aspx</DependentUpon>
+    <Compile Include="Admin\AdministrarTareas.aspx.designer.vb">
+      <DependentUpon>AdministrarTareas.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Admin\EliminarTareas.aspx.vb">
-      <DependentUpon>EliminarTareas.aspx</DependentUpon>
+    <Compile Include="Admin\AdministrarTareas.aspx.vb">
+      <DependentUpon>AdministrarTareas.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Alumnos\Alumno.aspx.designer.vb">

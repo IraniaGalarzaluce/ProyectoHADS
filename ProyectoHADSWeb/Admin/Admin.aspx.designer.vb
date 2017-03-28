@@ -23,13 +23,13 @@ Partial Public Class Admin
     Protected WithEvents form2 As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
-    '''Control EliminarTareas.
+    '''Control AdministrarTareas.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents EliminarTareas As Global.System.Web.UI.WebControls.LinkButton
+    Protected WithEvents AdministrarTareas As Global.System.Web.UI.WebControls.LinkButton
 
     '''<summary>
     '''Control Panel1.
@@ -39,13 +39,4 @@ Partial Public Class Admin
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents Panel1 As Global.System.Web.UI.WebControls.Panel
-
-    '''<summary>
-    '''Control form1.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 End Class

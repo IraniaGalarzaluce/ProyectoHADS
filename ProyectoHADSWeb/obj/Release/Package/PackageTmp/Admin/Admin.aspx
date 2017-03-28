@@ -14,7 +14,7 @@
         <br />
 &nbsp;&nbsp;
     
-        <asp:LinkButton ID="EliminarTareas" runat="server" PostBackUrl="~/Admin/EliminarTareas.aspx" Font-Bold="True" ForeColor="White">Eliminar Tareas</asp:LinkButton>
+        <asp:LinkButton ID="AdministrarTareas" runat="server" PostBackUrl="~/Admin/AdministrarTareas.aspx" Font-Bold="True" ForeColor="White">Administrar Tareas</asp:LinkButton>
     
         <br />
         <br />
@@ -37,17 +37,12 @@
             <br />
             <br />
             <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Gestion Web de Tareas-Dedicación<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Gestion Web de Tareas-Dedicación<br />
             <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Admin</asp:Panel>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Admin</asp:Panel>
     </form>
     <p>
 &nbsp;&nbsp;&nbsp;
     </p>
-    <form id="form1" runat="server">
-    <div>
-    
-    </div>
-    </form>
 </body>
 </html>

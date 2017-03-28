@@ -29,6 +29,9 @@ Public Class Login
                 Session.Contents("profesor") = TextBox1.Text
                 If TextBox1.Text = "vadillo@ehu.es" Then
                     FormsAuthentication.SetAuthCookie("vadillo", False)
+                ElseIf TextBox1.Text = "admin@ehu.es" Then
+                    FormsAuthentication.SetAuthCookie("admin", False)
+                    Response.Redirect("Admin/Admin.aspx")
                 Else
                     FormsAuthentication.SetAuthCookie("profesor", False)
                 End If

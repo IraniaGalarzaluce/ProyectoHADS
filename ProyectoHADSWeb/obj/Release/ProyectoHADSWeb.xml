@@ -6,7 +6,47 @@ ProyectoHADSWeb
 </name>
 </assembly>
 <members>
-<member name="F:ProyectoHADSWeb.InstanciarTarea.form1">
+<member name="F:ProyectoHADSWeb.EliminarTareas.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.EliminarTareas.Panel1">
+	<summary>
+Control Panel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.EliminarTareas.LinkLogOut">
+	<summary>
+Control LinkLogOut.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.EliminarTareas.SqlDataSource1">
+	<summary>
+Control SqlDataSource1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.EliminarTareas.GridView1">
+	<summary>
+Control GridView1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.InstanciarTarea.form1">
 	<summary>
 Control form1.
 </summary>
@@ -121,46 +161,6 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member><member name="F:ProyectoHADSWeb.Alumno.Panel1">
 	<summary>
 Control Panel1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ProyectoHADSWeb.EliminarTareas.form1">
-	<summary>
-Control form1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ProyectoHADSWeb.EliminarTareas.Panel1">
-	<summary>
-Control Panel1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ProyectoHADSWeb.EliminarTareas.LinkLogOut">
-	<summary>
-Control LinkLogOut.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ProyectoHADSWeb.EliminarTareas.SqlDataSource1">
-	<summary>
-Control SqlDataSource1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ProyectoHADSWeb.EliminarTareas.GridView1">
-	<summary>
-Control GridView1.
 </summary>
 	<remarks>
 Campo generado automáticamente.
@@ -655,9 +655,9 @@ Control form2.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ProyectoHADSWeb.Admin.EliminarTareas">
+</member><member name="F:ProyectoHADSWeb.Admin.AdministrarTareas">
 	<summary>
-Control EliminarTareas.
+Control AdministrarTareas.
 </summary>
 	<remarks>
 Campo generado automáticamente.
@@ -666,14 +666,6 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member><member name="F:ProyectoHADSWeb.Admin.Panel1">
 	<summary>
 Control Panel1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ProyectoHADSWeb.Admin.form1">
-	<summary>
-Control form1.
 </summary>
 	<remarks>
 Campo generado automáticamente.
