@@ -1,4 +1,5 @@
 ﻿Imports ProyectoHADSClases.accesodatosSQL
+Imports System.Security.Cryptography
 
 Public Class CambiarPass
     Inherits System.Web.UI.Page
@@ -14,7 +15,8 @@ Public Class CambiarPass
 
     Protected Sub AceptarBtn_Click(sender As Object, e As EventArgs) Handles AceptarBtn.Click
         Dim cambioP As String
-        cambioP = cambioPass(mailTxt.Text, PassTxt.Text, RespuestaTxt.Text)
+        Dim passEnc = encriptar(PassTxt.Text)
+        cambioP = cambioPass(mailTxt.Text, passEnc, RespuestaTxt.Text)
         Label1.Text = cambioP
     End Sub
 
@@ -42,5 +44,18 @@ Public Class CambiarPass
             Info.Text = "El email no está registrado."
         End If
     End Sub
+
+    Private Function encriptar(ByVal pass As String) As String
+
+        Dim md5 As New MD5CryptoServiceProvider
+
+        Dim inputData() As Byte = ASCIIEncoding.ASCII.GetBytes(pass)
+        Dim hashResult() As Byte = md5.ComputeHash(inputData)
+        Dim encPass = ASCIIEncoding.ASCII.GetString(hashResult)
+        Dim encPass2 = Replace(encPass, "'", "")
+
+        Return encPass2
+
+    End Function
 
 End Class

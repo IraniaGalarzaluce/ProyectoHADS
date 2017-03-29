@@ -1,5 +1,4 @@
 ﻿Imports System.Data.SqlClient
-Imports System.Data.OleDb
 Imports System.Net.Mail
 
 Public Class accesodatosSQL

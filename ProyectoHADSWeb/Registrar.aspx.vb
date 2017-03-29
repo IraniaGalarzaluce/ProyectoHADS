@@ -36,8 +36,10 @@ Public Class Registrar
 
         Dim inputData() As Byte = ASCIIEncoding.ASCII.GetBytes(pass)
         Dim hashResult() As Byte = md5.ComputeHash(inputData)
+        Dim encPass = ASCIIEncoding.ASCII.GetString(hashResult)
+        Dim encPass2 = Replace(encPass, "'", "")
 
-        Return ASCIIEncoding.ASCII.GetString(hashResult)
+        Return encPass2
 
     End Function
 

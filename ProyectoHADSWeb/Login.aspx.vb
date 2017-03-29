@@ -27,15 +27,17 @@ Public Class Login
             Dim usConfirProf = registradoP(TextBox1.Text, encPass)
             If (usConfirProf = True) Then
                 Session.Contents("profesor") = TextBox1.Text
-                If TextBox1.Text = "vadillo@ehu.es" Then
-                    FormsAuthentication.SetAuthCookie("vadillo", False)
-                ElseIf TextBox1.Text = "admin@ehu.es" Then
+                If TextBox1.Text = "admin@ehu.es" Then
                     FormsAuthentication.SetAuthCookie("admin", False)
                     Response.Redirect("Admin/Admin.aspx")
                 Else
-                    FormsAuthentication.SetAuthCookie("profesor", False)
+                    If TextBox1.Text = "vadillo@ehu.es" Then
+                        FormsAuthentication.SetAuthCookie("vadillo", False)
+                    Else
+                        FormsAuthentication.SetAuthCookie("profesor", False)
+                    End If
+                    Response.Redirect("Profesores/Profesor.aspx")
                 End If
-                Response.Redirect("Profesores/Profesor.aspx")
             Else
                 Dim usReg = confirmado(TextBox1.Text, encPass)
                 If (usReg = True) Then
@@ -54,8 +56,10 @@ Public Class Login
 
         Dim inputData() As Byte = ASCIIEncoding.ASCII.GetBytes(pass)
         Dim hashResult() As Byte = md5.ComputeHash(inputData)
+        Dim encPass = ASCIIEncoding.ASCII.GetString(hashResult)
+        Dim encPass2 = Replace(encPass, "'", "")
 
-        Return ASCIIEncoding.ASCII.GetString(hashResult)
+        Return encPass2
 
     End Function
 
