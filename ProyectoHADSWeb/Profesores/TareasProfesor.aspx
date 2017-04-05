@@ -1,5 +1,7 @@
 ﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="TareasProfesor.aspx.vb" Inherits="ProyectoHADSWeb.TareasProfesor" %>
 
+<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="ajaxToolkit" %>
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -65,6 +67,7 @@
                         <SortedDescendingCellStyle BackColor="#E5E5E5" />
                         <SortedDescendingHeaderStyle BackColor="#242121" />
                     </asp:GridView>
+                    <ajaxToolkit:DragPanelExtender ID="GridView1_DragPanelExtender" runat="server" BehaviorID="GridView1_DragPanelExtender" DragHandleID="GridView1" TargetControlID="GridView1" />
                 </ContentTemplate>
         </asp:UpdatePanel>
         <p>
@@ -97,6 +100,18 @@
                 </UpdateParameters>
             </asp:SqlDataSource>
         </p>
+        <p style="margin-left: 400px">
+            &nbsp;</p>
+        <p style="margin-left: 400px">
+            &nbsp;</p>
+        <p style="margin-left: 400px">
+            &nbsp;</p>
+        <p style="margin-left: 400px">
+            &nbsp;</p>
+        <p style="margin-left: 400px">
+            &nbsp;</p>
+        <p style="margin-left: 400px">
+            &nbsp;</p>
         <p style="margin-left: 400px">
         <asp:LinkButton ID="menuLink" runat="server" PostBackUrl="~/Profesores/Profesor.aspx">Menu Profesor</asp:LinkButton>
     

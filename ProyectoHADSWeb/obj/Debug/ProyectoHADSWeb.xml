@@ -166,6 +166,54 @@ Control Panel1.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
+</member><member name="F:ProyectoHADSWeb.Alumno.CerrarSesion">
+	<summary>
+Control CerrarSesion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.Alumno.ScriptManager1">
+	<summary>
+Control ScriptManager1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.Alumno.UpdatePanel1">
+	<summary>
+Control UpdatePanel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.Alumno.ListProfesores">
+	<summary>
+Control ListProfesores.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.Alumno.ListAlumnos">
+	<summary>
+Control ListAlumnos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.Alumno.Timer1">
+	<summary>
+Control Timer1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
 </member><member name="F:ProyectoHADSWeb.CambiarPass.form1">
 	<summary>
 Control form1.
@@ -991,14 +1039,6 @@ Control UpdatePanel1.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ProyectoHADSWeb.Profesor.Timer1">
-	<summary>
-Control Timer1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
 </member><member name="F:ProyectoHADSWeb.Profesor.ListProfesores">
 	<summary>
 Control ListProfesores.
@@ -1015,9 +1055,25 @@ Control ListAlumnos.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
+</member><member name="F:ProyectoHADSWeb.Profesor.Timer1">
+	<summary>
+Control Timer1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
 </member><member name="F:ProyectoHADSWeb.Profesor.Panel1">
 	<summary>
 Control Panel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.Profesor.CerrarSesion">
+	<summary>
+Control CerrarSesion.
 </summary>
 	<remarks>
 Campo generado automáticamente.
