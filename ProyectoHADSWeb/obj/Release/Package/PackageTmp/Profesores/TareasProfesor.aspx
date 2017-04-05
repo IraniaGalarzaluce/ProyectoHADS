@@ -15,50 +15,58 @@
     
         <asp:Panel ID="Panel1" runat="server" HorizontalAlign="Left">
             &nbsp;
-            <asp:LinkButton ID="LinkLogOut" runat="server" Font-Size="Medium" ForeColor="Black" PostBackUrl="~/LogOut.aspx">Cerrar Sesión</asp:LinkButton>
+            <asp:LinkButton ID="LinkLogOut" runat="server" Font-Size="Medium" ForeColor="Black" PostBackUrl="~/Profesores/LogOutProfesor.aspx">Cerrar Sesión</asp:LinkButton>
         </asp:Panel>
         PROFESOR<br />
         GESTIÓN DE TAREAS GENÉRICAS</div>
     
     </div>
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
         <p>
             Seleccionar Asignatura:</p>
-        <p>
-            <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" DataSourceID="SqlDataSource1" DataTextField="codigoasig" DataValueField="codigoasig">
-            </asp:DropDownList>
-            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:HADS15_TareasConnectionString %>" 
-                SelectCommand="select gc.codigoasig from GruposClase as gc inner join ProfesoresGrupo as pg on gc.codigo=pg.codigogrupo where pg.email=@profesor">
-                <SelectParameters>
-                    <asp:SessionParameter Name="profesor" SessionField="profesor" />
-                </SelectParameters>
-            </asp:SqlDataSource>
-        </p>
+        <asp:UpdatePanel ID="UpdatePanel2" runat="server">
+            <ContentTemplate>
+                <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" DataSourceID="SqlDataSource1" DataTextField="codigoasig" DataValueField="codigoasig">
+                </asp:DropDownList>
+<br />
+                <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:HADS15_TareasConnectionString %>" SelectCommand="select gc.codigoasig from GruposClase as gc inner join ProfesoresGrupo as pg on gc.codigo=pg.codigogrupo where pg.email=@profesor">
+                    <SelectParameters>
+                        <asp:SessionParameter Name="profesor" SessionField="profesor" />
+                    </SelectParameters>
+                </asp:SqlDataSource>
+            </ContentTemplate>
+        </asp:UpdatePanel>
         <p>
             &nbsp;</p>
         <p>
             <asp:Button ID="Button1" runat="server" Font-Bold="True" Height="43px" Text="INSERTAR NUEVA TAREA" />
         </p>
         <p>
-            &nbsp;</p>
-            <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataKeyNames="Codigo" DataSourceID="SqlDataSource3" ForeColor="Black" GridLines="Horizontal" Width="116px" AllowSorting="True">
-                <Columns>
-                    <asp:CommandField ShowEditButton="True" ButtonType="Button" />
-                    <asp:BoundField DataField="Codigo" HeaderText="Codigo" ReadOnly="True" SortExpression="Codigo" />
-                    <asp:BoundField DataField="Descripcion" HeaderText="Descripcion" SortExpression="Descripcion" />
-                    <asp:BoundField DataField="CodAsig" HeaderText="CodAsig" SortExpression="CodAsig" />
-                    <asp:BoundField DataField="HEstimadas" HeaderText="HEstimadas" SortExpression="HEstimadas" />
-                    <asp:CheckBoxField DataField="Explotacion" HeaderText="Explotacion" SortExpression="Explotacion" />
-                    <asp:BoundField DataField="TipoTarea" HeaderText="TipoTarea" SortExpression="TipoTarea" />
-                </Columns>
-                <FooterStyle BackColor="#CCCC99" ForeColor="Black" />
-                <HeaderStyle BackColor="#333333" Font-Bold="True" ForeColor="White" />
-                <PagerStyle BackColor="White" ForeColor="Black" HorizontalAlign="Right" />
-                <SelectedRowStyle BackColor="#CC3333" Font-Bold="True" ForeColor="White" />
-                <SortedAscendingCellStyle BackColor="#F7F7F7" />
-                <SortedAscendingHeaderStyle BackColor="#4B4B4B" />
-                <SortedDescendingCellStyle BackColor="#E5E5E5" />
-                <SortedDescendingHeaderStyle BackColor="#242121" />
-            </asp:GridView>
+            </p>
+            <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                <ContentTemplate>
+                    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataKeyNames="Codigo" DataSourceID="SqlDataSource3" ForeColor="Black" GridLines="Horizontal" Width="116px" AllowSorting="True">
+                        <Columns>
+                            <asp:CommandField ShowEditButton="True" ButtonType="Button" />
+                            <asp:BoundField DataField="Codigo" HeaderText="Codigo" ReadOnly="True" SortExpression="Codigo" />
+                            <asp:BoundField DataField="Descripcion" HeaderText="Descripcion" SortExpression="Descripcion" />
+                            <asp:BoundField DataField="CodAsig" HeaderText="CodAsig" SortExpression="CodAsig" />
+                            <asp:BoundField DataField="HEstimadas" HeaderText="HEstimadas" SortExpression="HEstimadas" />
+                            <asp:CheckBoxField DataField="Explotacion" HeaderText="Explotacion" SortExpression="Explotacion" />
+                            <asp:BoundField DataField="TipoTarea" HeaderText="TipoTarea" SortExpression="TipoTarea" />
+                        </Columns>
+                        <FooterStyle BackColor="#CCCC99" ForeColor="Black" />
+                        <HeaderStyle BackColor="#333333" Font-Bold="True" ForeColor="White" />
+                        <PagerStyle BackColor="White" ForeColor="Black" HorizontalAlign="Right" />
+                        <SelectedRowStyle BackColor="#CC3333" Font-Bold="True" ForeColor="White" />
+                        <SortedAscendingCellStyle BackColor="#F7F7F7" />
+                        <SortedAscendingHeaderStyle BackColor="#4B4B4B" />
+                        <SortedDescendingCellStyle BackColor="#E5E5E5" />
+                        <SortedDescendingHeaderStyle BackColor="#242121" />
+                    </asp:GridView>
+                </ContentTemplate>
+        </asp:UpdatePanel>
         <p>
             <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:HADS15_TareasConnectionString %>" 
                 DeleteCommand="DELETE FROM [TareasGenericas] WHERE [Codigo] = @Codigo" 

@@ -1,11 +1,31 @@
 ﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Profesor.aspx.vb" Inherits="ProyectoHADSWeb.Profesor" %>
 
+<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="ajaxToolkit" %>
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
+    <style type="text/css">
+        #form2 {
+            height: 914px;
+        }
+        #TextArea1 {
+            width: 318px;
+        }
+        #TextProfesores {
+            width: 309px;
+        }
+        #TextProfesores0 {
+            width: 309px;
+        }
+        #TextAlumnos {
+            width: 304px;
+        }
+    </style>
+
 </head>
 <body>
     <form id="form2" runat="server">
@@ -49,16 +69,34 @@
         <br />
         <br />
         <br />
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
         <br />
-        &nbsp;&nbsp;
-            
-        <br />
-        <br />
-        <br />
+        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+            <ContentTemplate>
+                Profesores conectados:<br />
+                <br />
+                <asp:ListBox ID="ListProfesores" runat="server" Height="70px" Width="178px"></asp:ListBox>
+                <br />
+                <br />
+                <br />
+                Alumnos conectados:<br />
+                <br />
+                <asp:ListBox ID="ListAlumnos" runat="server" Width="170px"></asp:ListBox>
+                <br />
+                <br />
+                <asp:Timer ID="Timer1" runat="server" Interval="3000" OnTick="Timer1_Tick">
+                </asp:Timer>
+                <br />
+                <br />
+            </ContentTemplate>
+        </asp:UpdatePanel>
         <br />
     
     </div>
         <asp:Panel ID="Panel1" runat="server" BorderColor="Black" BorderStyle="Solid" BorderWidth="3px" Font-Bold="True" Font-Size="X-Large" Height="386px" style="margin-left: 59px" Width="639px">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:LinkButton ID="CerrarSesion" runat="server" Font-Size="Large" ForeColor="#CC0000" PostBackUrl="~/Profesores/LogOutProfesor.aspx">Cerrar Sesión</asp:LinkButton>
             <br />
             <br />
             <br />
@@ -66,10 +104,13 @@
             <br />
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Gestion Web de Tareas-Dedicación<br />
             <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Profesores</asp:Panel>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Profesores<br />
+            <br />
+            <br />
+            &nbsp;&nbsp; </asp:Panel>
     </form>
     <p>
-&nbsp;&nbsp;&nbsp;
+&nbsp;
     </p>
 </body>
 </html>

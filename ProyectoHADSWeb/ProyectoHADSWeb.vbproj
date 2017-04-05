@@ -40,6 +40,10 @@
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=16.1.1.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\ASP.NET AJAX Control Toolkit\Bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net40\Newtonsoft.Json.dll</HintPath>
@@ -89,6 +93,7 @@
     <Content Include="Admin\AdministrarTareas.aspx" />
     <Content Include="Alumnos\Alumno.aspx" />
     <Content Include="Alumnos\InstanciarTarea.aspx" />
+    <Content Include="Alumnos\LogOutAlumno.aspx" />
     <Content Include="Alumnos\TareasAlumno.aspx" />
     <Content Include="App_Data\HAS.xml" />
     <Content Include="App_Data\SEG.xml" />
@@ -98,6 +103,7 @@
     <Content Include="App_Data\XSLTHEstimadas.xsl" />
     <Content Include="CambiarPass.aspx" />
     <Content Include="Confirmar.aspx" />
+    <Content Include="Global.asax" />
     <Content Include="Inicio.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="LogOut.aspx" />
@@ -105,6 +111,7 @@
     <Content Include="Profesores\ImportarXML.aspx" />
     <Content Include="Profesores\ImportarXMLDataSet.aspx" />
     <Content Include="Profesores\InsertarTarea.aspx" />
+    <Content Include="Profesores\LogOutProfesor.aspx" />
     <Content Include="Profesores\Profesor.aspx" />
     <Content Include="Profesores\TareasProfesor.aspx" />
     <Content Include="Registrar.aspx" />
@@ -139,6 +146,13 @@
       <DependentUpon>InstanciarTarea.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="Alumnos\LogOutAlumno.aspx.designer.vb">
+      <DependentUpon>LogOutAlumno.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Alumnos\LogOutAlumno.aspx.vb">
+      <DependentUpon>LogOutAlumno.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Alumnos\TareasAlumno.aspx.designer.vb">
       <DependentUpon>TareasAlumno.aspx</DependentUpon>
     </Compile>
@@ -159,6 +173,9 @@
     <Compile Include="Confirmar.aspx.vb">
       <DependentUpon>Confirmar.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Inicio.aspx.designer.vb">
       <DependentUpon>Inicio.aspx</DependentUpon>
@@ -227,6 +244,13 @@
     <Compile Include="Profesores\InsertarTarea.aspx.vb">
       <DependentUpon>InsertarTarea.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Profesores\LogOutProfesor.aspx.designer.vb">
+      <DependentUpon>LogOutProfesor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profesores\LogOutProfesor.aspx.vb">
+      <DependentUpon>LogOutProfesor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Profesores\Profesor.aspx.designer.vb">
       <DependentUpon>Profesor.aspx</DependentUpon>

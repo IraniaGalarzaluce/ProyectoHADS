@@ -15,7 +15,7 @@
     
         <asp:Panel ID="Panel1" runat="server" HorizontalAlign="Left">
             &nbsp;
-            <asp:LinkButton ID="LinkLogOut" runat="server" Font-Size="Medium" ForeColor="Black" PostBackUrl="~/LogOut.aspx">Cerrar Sesión</asp:LinkButton>
+            <asp:LinkButton ID="LinkLogOut" runat="server" Font-Size="Medium" ForeColor="Black" PostBackUrl="~/Profesores/LogOutProfesor.aspx">Cerrar Sesión</asp:LinkButton>
         </asp:Panel>
         PROFESOR<br />
         GESTIÓN DE TAREAS GENÉRICAS</div>

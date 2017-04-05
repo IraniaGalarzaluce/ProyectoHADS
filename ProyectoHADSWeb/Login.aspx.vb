@@ -21,12 +21,18 @@ Public Class Login
         Dim usConfirAlum = registradoA(TextBox1.Text, encPass)
         If (usConfirAlum = True) Then
             Session.Contents("alumno") = TextBox1.Text
+            Application.Lock()
+            Application.Contents("AlumConectados").Add(TextBox1.Text)
+            Application.UnLock()
             FormsAuthentication.SetAuthCookie("alumno", False)
             Response.Redirect("Alumnos/Alumno.aspx")
         Else
             Dim usConfirProf = registradoP(TextBox1.Text, encPass)
             If (usConfirProf = True) Then
                 Session.Contents("profesor") = TextBox1.Text
+                Application.Lock()
+                Application.Contents("ProfConectados").Add(TextBox1.Text)
+                Application.UnLock()
                 If TextBox1.Text = "admin@ehu.es" Then
                     FormsAuthentication.SetAuthCookie("admin", False)
                     Response.Redirect("Admin/Admin.aspx")
@@ -62,5 +68,6 @@ Public Class Login
         Return encPass2
 
     End Function
+
 
 End Class

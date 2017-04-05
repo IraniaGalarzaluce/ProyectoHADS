@@ -77,6 +77,51 @@ Partial Public Class Profesor
     Protected WithEvents LinkButton1 As Global.System.Web.UI.WebControls.LinkButton
 
     '''<summary>
+    '''Control ScriptManager1.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents ScriptManager1 As Global.System.Web.UI.ScriptManager
+
+    '''<summary>
+    '''Control UpdatePanel1.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents UpdatePanel1 As Global.System.Web.UI.UpdatePanel
+
+    '''<summary>
+    '''Control ListProfesores.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents ListProfesores As Global.System.Web.UI.WebControls.ListBox
+
+    '''<summary>
+    '''Control ListAlumnos.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents ListAlumnos As Global.System.Web.UI.WebControls.ListBox
+
+    '''<summary>
+    '''Control Timer1.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents Timer1 As Global.System.Web.UI.Timer
+
+    '''<summary>
     '''Control Panel1.
     '''</summary>
     '''<remarks>
@@ -84,4 +129,13 @@ Partial Public Class Profesor
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents Panel1 As Global.System.Web.UI.WebControls.Panel
+
+    '''<summary>
+    '''Control CerrarSesion.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents CerrarSesion As Global.System.Web.UI.WebControls.LinkButton
 End Class
