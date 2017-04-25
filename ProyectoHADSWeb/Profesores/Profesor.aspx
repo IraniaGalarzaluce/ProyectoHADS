@@ -46,7 +46,7 @@
         <br />
         <br />
 &nbsp;&nbsp;
-        <asp:LinkButton ID="GruposLink" runat="server" Font-Bold="True" ForeColor="White">Grupos</asp:LinkButton>
+        <asp:LinkButton ID="GruposLink" runat="server" Font-Bold="True" ForeColor="White" PostBackUrl="~/Profesores/Coordinador.aspx">Coordinador</asp:LinkButton>
         <br />
         <br />
         <br />

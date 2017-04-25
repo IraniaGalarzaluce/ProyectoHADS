@@ -14,3 +14,5 @@ C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSWe
 C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSWeb\bin\Newtonsoft.Json.dll
 C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSWeb\bin\Newtonsoft.Json.xml
 C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSWeb\bin\AjaxControlToolkit.dll
+C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSWeb\bin\ProyectoHADSWeb.XmlSerializers.dll
+C:\Users\IRATI\Documents\Visual Studio 2013\Projects\ProyectoHADS\ProyectoHADSWeb\obj\Release\ProyectoHADSWeb.XmlSerializers.dll

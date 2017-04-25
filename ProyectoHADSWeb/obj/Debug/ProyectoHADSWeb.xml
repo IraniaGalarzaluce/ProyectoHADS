@@ -214,6 +214,62 @@ Control Timer1.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
+</member><member name="F:ProyectoHADSWeb.PruebaHoras.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.PruebaHoras.Panel1">
+	<summary>
+Control Panel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.PruebaHoras.LinkLogOut">
+	<summary>
+Control LinkLogOut.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.PruebaHoras.asignaturas">
+	<summary>
+Control asignaturas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.PruebaHoras.SqlDataSource1">
+	<summary>
+Control SqlDataSource1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.PruebaHoras.Button1">
+	<summary>
+Control Button1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.PruebaHoras.hMedia">
+	<summary>
+Control hMedia.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
 </member><member name="F:ProyectoHADSWeb.CambiarPass.form1">
 	<summary>
 Control form1.
@@ -662,6 +718,26 @@ Control menuLink.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
+</member><member name="M:ProyectoHADSWeb.Matriculas.Matriculas.#ctor">
+	<remarks/>
+</member><member name="E:ProyectoHADSWeb.Matriculas.Matriculas.comprobarCompleted">
+	<remarks/>
+</member><member name="M:ProyectoHADSWeb.Matriculas.Matriculas.comprobar(System.String)">
+	<remarks/>
+</member><member name="M:ProyectoHADSWeb.Matriculas.Matriculas.comprobarAsync(System.String)">
+	<remarks/>
+</member><member name="M:ProyectoHADSWeb.Matriculas.Matriculas.comprobarAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:ProyectoHADSWeb.Matriculas.Matriculas.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:ProyectoHADSWeb.Matriculas.Matriculas">
+	<remarks/>
+</member><member name="T:ProyectoHADSWeb.Matriculas.comprobarCompletedEventHandler">
+	<remarks/>
+</member><member name="P:ProyectoHADSWeb.Matriculas.comprobarCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:ProyectoHADSWeb.Matriculas.comprobarCompletedEventArgs">
+	<remarks/>
 </member><member name="F:ProyectoHADSWeb.Confirmar.form1">
 	<summary>
 Control form1.
@@ -767,6 +843,22 @@ Control form1.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
+</member><member name="F:ProyectoHADSWeb.Registrar.ScriptManager1">
+	<summary>
+Control ScriptManager1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.Registrar.UpdatePanel1">
+	<summary>
+Control UpdatePanel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
 </member><member name="F:ProyectoHADSWeb.Registrar.correoText">
 	<summary>
 Control correoText.
@@ -783,9 +875,17 @@ Control RequiredFieldValidator1.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ProyectoHADSWeb.Registrar.RegularExpressionValidator1">
+</member><member name="F:ProyectoHADSWeb.Registrar.Label4">
 	<summary>
-Control RegularExpressionValidator1.
+Control Label4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.Registrar.UpdateProgress1">
+	<summary>
+Control UpdateProgress1.
 </summary>
 	<remarks>
 Campo generado automáticamente.
@@ -842,6 +942,14 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member><member name="F:ProyectoHADSWeb.Registrar.RequiredFieldValidator5">
 	<summary>
 Control RequiredFieldValidator5.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ProyectoHADSWeb.Registrar.Label6">
+	<summary>
+Control Label6.
 </summary>
 	<remarks>
 Campo generado automáticamente.

@@ -21,13 +21,22 @@ Public Class Registrar
 
         Dim encPass = encriptar(pass1Text.Text)
 
-        Label2.Text = insertar(correoText.Text, nombreText.Text, dniText.Text, encPass, preguntaText.Text, respuestaText.Text)
-        If (enviarEmailConfirmacion(correoText.Text, numConf)) Then
-            Label3.Text = "Correo enviado!!"
-        Else
-            Label3.Text = "El correo no ha sido enviado"
-        End If
+        Dim matSw As New Matriculas.Matriculas
+        Dim resp = matSw.comprobar(correoText.Text)
+        If resp = "SI" Then
 
+            Label2.Text = insertar(correoText.Text, nombreText.Text, dniText.Text, encPass, preguntaText.Text, respuestaText.Text)
+            If (enviarEmailConfirmacion(correoText.Text, numConf)) Then
+                Label3.Text = "Correo enviado!!"
+                Label3.ForeColor = Drawing.Color.FromArgb(&H0, &HCC, &H99)
+            Else
+                Label3.Text = "El correo no ha sido enviado"
+                Label3.ForeColor = Drawing.Color.FromArgb(&HCC, &H0, &H0)
+            End If
+        Else
+            Label2.Text = "Para poder registrarte tienes que estar matriculado"
+            Label2.ForeColor = Drawing.Color.FromArgb(&HCC, &H0, &H0)
+        End If
     End Sub
 
     Private Function encriptar(ByVal pass As String) As String
@@ -43,4 +52,32 @@ Public Class Registrar
 
     End Function
 
+    Protected Sub correoText_TextChanged(sender As Object, e As EventArgs) Handles correoText.TextChanged
+        Dim matSw As New Matriculas.Matriculas
+        Dim resp = matSw.comprobar(correoText.Text)
+        If resp = "SI" Then
+            Label4.Text = "Puede continuar."
+            Label4.ForeColor = Drawing.Color.FromArgb(&H0, &HCC, &H99)
+            Registrarse.Enabled = True
+        Else
+            Label4.Text = "Debes estar matrículado para poder registrarte."
+            Label4.ForeColor = Drawing.Color.FromArgb(&HCC, &H0, &H0)
+            Registrarse.Enabled = False
+        End If
+    End Sub
+
+    Protected Sub pass1Text_TextChanged(sender As Object, e As EventArgs) Handles pass1Text.TextChanged
+        Dim passSw As New CompPassword
+        Dim resp = passSw.comprobar(pass1Text.Text)
+        If resp = "POCO" Then
+            Label6.Text = "Poco segura"
+            Label6.ForeColor = Drawing.Color.FromArgb(&HCC, &H0, &H0)
+        ElseIf resp = "MEDIA" Then
+            Label6.Text = "Seguridad media"
+            Label6.ForeColor = Drawing.Color.FromArgb(&HFF, &H66, &H0)
+        Else
+            Label6.Text = "Muy segura"
+            Label6.ForeColor = Drawing.Color.FromArgb(&H0, &HCC, &H99)
+        End If
+    End Sub
 End Class
